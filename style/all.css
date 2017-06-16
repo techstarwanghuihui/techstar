@@ -1,0 +1,185 @@
+/* @font-face {
+  font-family: 'iconfont';
+  src: url('iconfont.eot');
+  src: url('iconfont.eot?#iefix') format('embedded-opentype'),
+  url('iconfont.woff') format('woff'),
+  url('iconfont.ttf') format('truetype'),
+  url('iconfont.svg#iconfont') format('svg');
+}
+.iconfont{
+  font-family:"iconfont" !important;
+  font-size:16px;font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+} */
+@font-face {
+  font-family: 'iconfont';
+  src: url('iconfont.eot');
+  src: url('iconfont.eot?#iefix') format('embedded-opentype'),
+  url('iconfont.woff') format('woff'),
+  url('iconfont.ttf') format('truetype'),
+  url('iconfont.svg#iconfont') format('svg');
+}
+.iconfont{
+  font-family:"iconfont" !important;
+  font-size:16px;font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+.disBlock{
+	display: block;
+}
+/* 按钮 */
+.btn{
+	margin-top:10px;
+	font-size: 14px;
+}
+.gryBtn:hover{
+	color:#fff;
+	background-color: #2fb6e6;
+}
+.gryBtn:focus{
+	color:#fff;
+	background-color: #2fb6e6;
+}
+.write{
+	background-color: #fdfdfd;
+	color:#5b676c;
+	border:1px solid #eaeaea;
+}
+.write:hover{
+	color:#fff;
+	background-color: #159fd2;
+}
+.write:focus{
+	color:#fff;
+	background-color: #159fd2;
+}
+.wblue{
+	color:#717e90;
+	background:-webkit-linear-gradient(#fcfeff,#e2eefa);/*Safari 5.1 - 6.0*/
+    background:-o-linear-gradient(#fcfeff,#e2eefa);/*Opera 11.1 - 12.0*/
+    background:-moz-linear-gradient(#fcfeff,#e2eefa);/*Firefox 3.6 - 15*/
+    background:linear-gradient(#fcfeff,#e2eefa);/*标准的语法*/
+	border:1px solid #dfe4e9;
+}
+.wblue:hover{
+	color:#fff;
+	background:-webkit-linear-gradient(#92caf8,#92caf8);/* Safari 5.1 - 6.0 */
+    background:-o-linear-gradient(#92caf8,#92caf8);/* Opera 11.1 - 12.0 */
+    background:-moz-linear-gradient(#92caf8,#92caf8);/* Firefox 3.6 - 15 */
+    background:linear-gradient(#92caf8,#92caf8);/*标准的语法*/
+    transition:all 0.1s linear;
+}
+.wblue:focus{
+	color:#fff;
+	background:-webkit-linear-gradient(#92caf8,#92caf8);/* Safari 5.1 - 6.0 */
+    background:-o-linear-gradient(#92caf8,#92caf8);/* Opera 11.1 - 12.0 */
+    background:-moz-linear-gradient(#92caf8,#92caf8);/*Firefox 3.6 - 15 */
+    background:linear-gradient(#92caf8,#92caf8);/*标准的语法*/
+	border:1px solid #92caf8;
+}
+.noPic{
+	border-radius: 0px;
+}
+
+.blueBYB{
+	background-color:#2fb6e6;
+	border:1px solid #56bada;
+	color:#333;
+}
+.blueBYB:hover{
+	background-color:#2fb6e6;
+	border:1px solid #56bada;
+	color:#fbfbfb;
+}
+.blueBY{
+	background-color: #fdfdfd;
+	border:1px solid #d4d9db;
+	color:#76808d;
+	border-radius: 20px;
+	padding-left:20px;
+	padding-right:20px;
+}
+.blueBYBR{
+	background-color:#59d0f7;
+	border:1px solid #56bada;
+	color:#fbfbfb;
+	border-radius: 20px;
+	padding-left:20px;
+	padding-right:20px; 
+}
+/* 表单 */
+.search{
+	width:300px;
+	height:40px;
+	float:left;
+	border-radius:5px 0 0 5px;
+}
+.short100{
+	width:100px;
+}
+.searchBtn{
+	height:40px;
+}
+.marginTop0{
+	margin-top:0px;
+}
+.marginTop5{
+	margin-top:5px;
+}
+.shortSel{
+	width:300px;
+}
+.pd0{
+	padding:0px;
+}
+/*表格 */
+.tableWite tr{
+	border:1px solid #efefef;
+}
+.tableWite thead{
+	background:-webkit-linear-gradient(#fff,#e1e3e6);/* Safari 5.1 - 6.0 */
+    background:-o-linear-gradient(#fff,#e1e3e6);/* Opera 11.1 - 12.0 */
+    background:-moz-linear-gradient(#fff,#e1e3e6);/*Firefox 3.6 - 15 */
+    background:linear-gradient(#fff,#e1e3e6);/*标准的语法*/
+    font-size:14px;
+}
+.tableWite tbody tr:hover{
+	background-color: #2fb6e6;
+}
+.tableGry tbody tr:nth-of-type(2n){
+	background-color: #fbfbfb;
+}
+.tableFB tbody{
+	background-color: #fbfbfb;
+}
+.tableFchead thead{
+	background-color: #f5f7fb;
+	font-size:14px;
+}
+.tableFchead tr{
+	border:1px solid #efefef;
+}
+.tableLeft tr{
+	border:1px solid #efefef;
+}
+.tableLeft tbody tr td:nth-of-type(2n+1){
+	background-color: #f5f6f8;
+}
+.table2 tr td{
+	border:1px solid #efefef;
+}
+.table2 tr td:nth-of-type(2n){
+	border-right:1px solid #efefef;
+	border-left:1px solid #efefef;
+	text-align: center;
+}
+.table2 tr td:nth-of-type(2n+1){
+	text-align: center;
+}
+.tableGryHight tbody tr:nth-of-type(2n){
+	background-color: #f5f6f8;
+}
